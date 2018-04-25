@@ -17,10 +17,7 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
-   <style type="text/css">
-}
-   </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
   </head>
 
@@ -35,13 +32,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Sobre Pixar</a>
+              <a class="nav-link js-scroll-trigger" href="#pixar">Sobre Pixar</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Películas</a>
+              <a class="nav-link js-scroll-trigger" href="#peliculas">Películas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Ganancias</a>
+              <a class="nav-link js-scroll-trigger" href="#ganancias">Ganancias</a>
             </li>
           </ul>
         </div>
@@ -94,9 +91,9 @@
 </div>
 </div>
 
-    <section id="about" style="padding:0">
+    <section id="pixar" style="padding:0">
            <!--AQUÍ VA PRIMERA PARTE-->
-        <div class="container">
+        <div class="container-fluid">
 
              <div class="row">
 
@@ -149,7 +146,7 @@
 
 <!--AQUÍ VA SEGUNDA PARTE-->
 
-<section id="services">
+<section id="peliculas">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -177,11 +174,53 @@
 
 <!--AQUÍ VA TERCERA PARTE-->
 
-
-<section id="contact" class="bg-light">
-      <div class="container">
-       
+  <section id="ganancias" class="p-0">
+    <div class="col-lg-12">
+      <h3> Recaudación películas Toy Story </h3>
+      <p> En el siguiente gráfico se puede apreciar la diferencia de recaudación de cada una de las películas de Toy Story</p>
+      <p><small>Fuente: http://www.boxofficemojo.com/search/?q=toy%20story</small></p>
+      <div id="here" class="my-4"></div>
       </div>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script>
+
+   var w = 1550, h = 500, radius = 250;
+   
+   var calculo = [
+      {name: 'Toy Story', count: 373554033, color: '#15CF01'},
+      {name: 'Toy Story 3', count: 1066969703, color: '#01CFBB'},
+      {name: 'Toy Story 2', count: 497366869, color: '#5401CF'},
+    ];
+    
+    var arc = d3.arc().outerRadius(radius - 50).innerRadius(100);
+    
+    var pie = d3.pie().sort(null).value(function(d) { return d.count; });
+
+    var svg = d3.select('#here').append("svg")
+      .attr("width", w)
+      .attr("height", h)
+      .style("background","white",)
+      .append("g")
+      .attr("transform", "translate(" + w/2 + "," + h/2 + ")");
+//pie me hace el cálculo autómatico del porcentaje que ocupa cada dato dentro del pie
+    var g = svg.selectAll(".arc")
+      .data(pie(calculo))
+      .enter().append("g");    
+    
+    g.append("path")
+      .attr("d", arc)
+      .style("fill", function(d,i) { return d.data.color; });
+    
+    g.append("text")
+      .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+      .style("text-anchor", "middle")
+      .text(function(d) { return d.data.name; })
+      .attr("fill","white")
+      .style("font-size","11px")
+
+
+
+</script>
 </section>
 
 
