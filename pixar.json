@@ -1,0 +1,175 @@
+[  
+   {  
+      "movie": "Toy Story",
+      "date":"22/11/1995",
+      "domestic":191796233,
+      "foreign":181757800,
+      "total":373554033,
+      "duration":81,
+      "inrelease":"Sin Datos"
+
+   },
+   {  
+      "movie": "A Bug's Life",
+      "date":"25/11/1998",
+      "domestic":162798565,
+      "foreign":200460294,
+      "total":363258859,
+      "duration":96,
+      "inrelease":"182 days / 26 weeks"
+   },
+   {  
+      "movie": "Toy Story 2",
+      "date":"24/11/1999",
+      "domestic":245852179,
+      "foreign":251514690,
+      "total":497366869,
+      "duration":92,
+      "inrelease":"245 days / 35 weeks"
+   },
+   {  
+      "movie": "Monsters, Inc.",
+      "date":"02/11/2001",
+      "domestic":289916256,
+      "foreign":287509478,
+      "total":577425734,
+      "duration":90,
+      "inrelease":"329 days / 47 weeks"
+   },
+   {  
+      "movie": "Finding Nemo",
+      "date":"30/05/2003",
+      "domestic":380843261,
+      "foreign":559492275,
+      "total":940335536,
+      "duration":104,
+      "inrelease":"203 days / 29 weeks"
+   },
+   {  
+      "movie": "The Incredibles",
+      "date":"05/11/2004",
+      "domestic":261441092,
+      "foreign":371578642,
+      "total":633019734,
+      "duration":115,
+      "inrelease":"161 days / 23 weeks"
+   },
+    {  
+      "movie": "Cars",
+      "date":"09/06/2006",
+      "domestic":244082982,
+      "foreign":218133298,
+      "total":462216280,
+      "duration":116,
+      "inrelease":"133 days / 19 weeks"
+   },
+    {  
+      "movie": "Ratatoville",
+      "date":"29/06/2007",
+      "domestic":206445654,
+      "foreign":414257297,
+      "total":620702951,
+      "duration":111,
+      "inrelease":"168 days / 24 weeks"
+   },
+   {  
+      "movie": "WALL-E",
+      "date":"27/06/2008",
+      "domestic":223808164,
+      "foreign":309473269,
+      "total":533281433,
+      "duration":97,
+      "inrelease":"196 days / 28 weeks"
+   },
+   {  
+      "movie": "Up",
+      "date":"29/05/2009",
+      "domestic":293004164,
+      "foreign":442094918,
+      "total":735099082,
+      "duration":96,
+      "inrelease":"161 days / 23 weeks"
+   },
+   {  
+      "movie": "Toy Story 3",
+      "date":"18/06/2010",
+      "domestic":415004880,
+      "foreign":651964823,
+      "total":1066969703,
+      "duration":103,
+      "inrelease":"168 days / 24 weeks"
+   },
+   {  
+      "movie": "Cars 2",
+      "date":"24/06/2011",
+      "domestic":191452396,
+      "foreign":370658161,
+      "total":562110557,
+      "duration":113,
+      "inrelease":"168 days / 24 weeks"
+   },
+   {  
+      "movie": "Brave",
+      "date":"22/06/2012",
+      "domestic":237283207,
+      "foreign":303153856,
+      "total":540437063,
+      "duration": 100,
+      "inrelease":"210 days / 30 weeks"
+   },
+   {  
+      "movie": "Monsters University",
+      "date":"21/06/2013",
+      "domestic":268492764,
+      "foreign":475736673,
+      "total":744299437,
+      "duration": 107,
+      "inrelease":"182 days / 26 weeks"
+   },
+   {  
+      "movie": "Inside Out",
+      "date":"19/06/2015",
+      "domestic":356461711,
+      "foreign":501149463,
+      "total":857611174,
+      "duration": 94,
+      "inrelease":"175 days / 25 weeks"
+   },
+   {  
+     "movie": "The Good Dinosaur",
+      "date":"25/11/2015",
+      "domestic":123087120,
+      "foreign":209129551,
+      "total":332207671,
+      "duration": 100,
+      "inrelease":"135 days / 19.3 weeks"
+   },
+   {  
+      "movie": "Finding Dory",
+      "date":"17/06/2016",
+      "domestic":486295561,
+      "foreign":542275328,
+      "total":1028570889,
+      "duration": 103,
+      "inrelease":"175 days / 25 weeks"
+   },
+   {  
+      "movie": "Cars 3",
+      "date":"16/11/2017",
+      "domestic":152901115,
+      "foreign":231023867,
+      "total":383924982,
+      "duration": 102,
+      "inrelease":"140 days / 20 weeks"
+   },
+   {  
+     "movie": "Coco",
+      "date":"27/09/2017",
+      "domestic":209720242,
+      "foreign":588013888 ,
+      "total":797734130,
+      "duration": 109,
+      "inrelease":"153 days / 21.9 weeks"
+
+}
+]
