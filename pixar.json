@@ -1,8 +1,6 @@
 {
    "peliculas":
-
-[  
-   {  
+[{  
       "movie": "Toy Story",
       "date":"22/11/1995",
       "domestic":191796233,
